@@ -1,3 +1,42 @@
-[submodule "system"]
-	path = system
+[submodule "app/system"]
+	path = app/system
 	url = https://github.com/kohana/core
+[submodule "app/modules/auth"]
+	path = app/modules/auth
+	url = https://github.com/kohana/auth
+[submodule "app/modules/cache"]
+	path = app/modules/cache
+	url = https://github.com/kohana/cache
+[submodule "app/modules/codebench"]
+	path = app/modules/codebench
+	url = https://github.com/kohana/codebench
+[submodule "app/modules/database"]
+	path = app/modules/database
+	url = https://github.com/kohana/database
+[submodule "app/modules/image"]
+	path = app/modules/image
+	url = https://github.com/kohana/image
+[submodule "app/modules/minion"]
+	path = app/modules/minion
+	url = https://github.com/kohana/minion
+[submodule "app/modules/orm"]
+	path = app/modules/orm
+	url = https://github.com/kohana/orm
+[submodule "app/modules/unittest"]
+	path = app/modules/unittest
+	url = https://github.com/kohana/unittest
+[submodule "app/modules/menu"]
+	path = app/modules/menu
+	url = http://github.com/b263/kohana-menu
+[submodule "app/modules/acl"]
+	path = app/modules/acl
+	url = https://github.com/dmitrymomot/kohana-acl
+[submodule "app/modules/breadcrumbs"]
+	path = app/modules/breadcrumbs
+	url = https://github.com/mauclair/Breadcrumbs
+[submodule "app/modules/gravatar"]
+	path = app/modules/gravatar
+	url = https://github.com/daveWid/kohana-gravatar
+[submodule "app/modules/pagination"]
+	path = app/modules/pagination
+	url = https://github.com/kohana/pagination
