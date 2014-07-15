@@ -1,0 +1,29 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Installation directory
+RewriteBase /
+
+# Protect hidden files from being viewed
+<Files .*>
+	Order Deny,Allow
+	Deny From All
+</Files>
+
+RewriteCond %{QUERY_STRING} query=(.*)
+RewriteRule ^q\.php(.*) /api/%1 [L,QSA]
+
+# Protect application and system files from being viewed
+RewriteRule ^(?:application|modules|system)\b.* index.php/$0 [L]
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+# RewriteRule .* index.php/$0 [PT]
+RewriteRule .* index.php [L]
+
+# allow from all
+Allow from all
+Satisfy Any
