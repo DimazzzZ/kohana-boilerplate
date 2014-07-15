@@ -10,9 +10,6 @@ RewriteBase /
 	Deny From All
 </Files>
 
-RewriteCond %{QUERY_STRING} query=(.*)
-RewriteRule ^q\.php(.*) /api/%1 [L,QSA]
-
 # Protect application and system files from being viewed
 RewriteRule ^(?:application|modules|system)\b.* index.php/$0 [L]
 
