@@ -124,22 +124,22 @@ Kohana::$config->attach(new Config_File);
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
 Kohana::modules(array(
-    'auth'                   => MODPATH . 'auth',
-    'cache'                  => MODPATH . 'cache',
-    'database'               => MODPATH . 'database',
-    'image'                  => MODPATH . 'image',
-    'orm'                    => MODPATH . 'orm',
-    'menu'                   => MODPATH . 'menu',
-    'acl'                    => MODPATH . 'acl',
-    'breadcrumbs'            => MODPATH . 'breadcrumbs',
-    'minion'                 => MODPATH . 'minion',
-    'pagination'             => MODPATH . 'pagination',
-    'gravatar'               => MODPATH . 'gravatar',
+    'auth'        => MODPATH . 'auth',
+    'cache'       => MODPATH . 'cache',
+    'database'    => MODPATH . 'database',
+    'image'       => MODPATH . 'image',
+    'orm'         => MODPATH . 'orm',
+    'menu'        => MODPATH . 'menu',
+    'acl'         => MODPATH . 'acl',
+    'breadcrumbs' => MODPATH . 'breadcrumbs',
+    'minion'      => MODPATH . 'minion',
+    'pagination'  => MODPATH . 'pagination',
+    'gravatar'    => MODPATH . 'gravatar',
 ));
 
-Cookie::$salt       = '23lFGJ&SA3kbjfsa;pOIJH*N&&H';
+Cookie::$salt       = ':KMAI#IOJHVGnkjsdb^%';
 Cookie::$expiration = Date::WEEK;
-Cache::$default     = 'memcached';
+//Cache::$default     = 'memcached';
 //Image::$default_driver = 'Imagick';
 
 /**

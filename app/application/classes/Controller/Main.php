@@ -40,7 +40,7 @@ class Controller_Main extends Controller_Template
 
         $this->auth    = Auth::instance();
         $this->session = Session::instance();
-        $this->bc      = Breadcrumbs::getInstance();
+        $this->bc      = Breadcrumbs::instance();
         $this->cache   = Cache::instance();
         $this->acl     = ACL::instance();
 
