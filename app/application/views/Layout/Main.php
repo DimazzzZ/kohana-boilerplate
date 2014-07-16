@@ -28,7 +28,7 @@
     <title><?php echo $title; ?></title>
 </head>
 <body>
-<?php echo Menu::factory('default')
+<?php echo Menu::factory()
                ->render(); ?>
 
 <?php echo isset($breadcrumbs) ? $breadcrumbs : null; ?>
