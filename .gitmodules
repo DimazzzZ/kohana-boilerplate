@@ -39,4 +39,4 @@
 	url = https://github.com/kohana/pagination
 [submodule "app/modules/menu"]
 	path = app/modules/menu
-	url = https://github.com/b263/kohana-menu
+	url = http://github.com/b263/kohana-menu
