@@ -37,3 +37,6 @@
 [submodule "app/modules/pagination"]
 	path = app/modules/pagination
 	url = https://github.com/kohana/pagination
+[submodule "app/modules/menu"]
+	path = app/modules/menu
+	url = https://github.com/anroots/kohana-menu
