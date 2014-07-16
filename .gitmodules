@@ -33,7 +33,7 @@
 	url = https://github.com/dmitrymomot/kohana-acl
 [submodule "app/modules/breadcrumbs"]
 	path = app/modules/breadcrumbs
-	url = https://github.com/mauclair/Breadcrumbs
+	url = https://github.com/DimazzzZ/kohana-breadcrumbs
 [submodule "app/modules/gravatar"]
 	path = app/modules/gravatar
 	url = https://github.com/daveWid/kohana-gravatar
