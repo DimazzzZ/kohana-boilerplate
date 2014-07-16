@@ -25,9 +25,6 @@
 [submodule "app/modules/unittest"]
 	path = app/modules/unittest
 	url = https://github.com/kohana/unittest
-[submodule "app/modules/menu"]
-	path = app/modules/menu
-	url = http://github.com/b263/kohana-menu
 [submodule "app/modules/acl"]
 	path = app/modules/acl
 	url = https://github.com/dmitrymomot/kohana-acl
