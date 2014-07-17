@@ -134,7 +134,6 @@ Kohana::modules(array(
     'breadcrumbs' => MODPATH . 'breadcrumbs',
     'minion'      => MODPATH . 'minion',
     'pagination'  => MODPATH . 'pagination',
-    'gravatar'    => MODPATH . 'gravatar',
 ));
 
 Cookie::$salt       = ':KMAI#IOJHVGnkjsdb^%';
