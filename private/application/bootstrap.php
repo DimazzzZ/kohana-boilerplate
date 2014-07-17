@@ -123,17 +123,20 @@ Kohana::$config->attach(new Config_File);
 /**
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
+
+Kohana::$environment = Kohana::PRODUCTION;
+
 Kohana::modules(array(
+    'acl'         => MODPATH . 'acl',
     'auth'        => MODPATH . 'auth',
+    'breadcrumbs' => MODPATH . 'breadcrumbs',
     'cache'       => MODPATH . 'cache',
     'database'    => MODPATH . 'database',
     'image'       => MODPATH . 'image',
-    'orm'         => MODPATH . 'orm',
     'menu'        => MODPATH . 'menu',
-    'acl'         => MODPATH . 'acl',
-    'breadcrumbs' => MODPATH . 'breadcrumbs',
     'minion'      => MODPATH . 'minion',
     'pagination'  => MODPATH . 'pagination',
+    'orm'         => MODPATH . 'orm',
 ));
 
 Cookie::$salt       = ':KMAI#IOJHVGnkjsdb^%';

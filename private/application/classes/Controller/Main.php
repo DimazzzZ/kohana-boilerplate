@@ -36,6 +36,7 @@ class Controller_Main extends Controller_Template
 
     public function before()
     {
+        // Set Cross-origin resource sharing
         $this->response->headers('Access-Control-Allow-Origin', URL::base(true));
 
 //        $this->auth    = Auth::instance();
@@ -51,7 +52,7 @@ class Controller_Main extends Controller_Template
 
         parent::before();
 
-        $this->template->title   = __('Landing Control Panel');
+        $this->template->title   = __('Site title');
         $this->template->content = null;
 
         $this->template->styles  = array();
@@ -86,10 +87,10 @@ class Controller_Main extends Controller_Template
 //            $allow = $this->acl->is_allowed('guest', $controller, $action);
 //        }
 
-//        if (!$allow)
-//        {
-//            throw new HTTP_Exception_403;
-//        }
+        if (!$allow)
+        {
+            throw new HTTP_Exception_403;
+        }
     }
 
     public function after()
