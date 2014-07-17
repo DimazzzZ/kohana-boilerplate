@@ -36,4 +36,4 @@
 	url = https://github.com/daveWid/kohana-gravatar
 [submodule "private/modules/pagination"]
 	path = private/modules/pagination
-	url = https://github.com/kohana/pagination
+	url = https://github.com/WinterSilence/kohana-pagination
