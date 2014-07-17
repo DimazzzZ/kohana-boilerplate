@@ -1,42 +1,42 @@
-[submodule "app/system"]
-	path = app/system
+[submodule "private/system"]
+	path = private/system
 	url = https://github.com/kohana/core
-[submodule "app/modules/auth"]
-	path = app/modules/auth
+[submodule "private/modules/auth"]
+	path = private/modules/auth
 	url = https://github.com/kohana/auth
-[submodule "app/modules/cache"]
-	path = app/modules/cache
+[submodule "private/modules/cache"]
+	path = private/modules/cache
 	url = https://github.com/kohana/cache
-[submodule "app/modules/codebench"]
-	path = app/modules/codebench
+[submodule "private/modules/codebench"]
+	path = private/modules/codebench
 	url = https://github.com/kohana/codebench
-[submodule "app/modules/database"]
-	path = app/modules/database
+[submodule "private/modules/database"]
+	path = private/modules/database
 	url = https://github.com/kohana/database
-[submodule "app/modules/image"]
-	path = app/modules/image
+[submodule "private/modules/image"]
+	path = private/modules/image
 	url = https://github.com/kohana/image
-[submodule "app/modules/minion"]
-	path = app/modules/minion
+[submodule "private/modules/minion"]
+	path = private/modules/minion
 	url = https://github.com/kohana/minion
-[submodule "app/modules/orm"]
-	path = app/modules/orm
+[submodule "private/modules/orm"]
+	path = private/modules/orm
 	url = https://github.com/kohana/orm
-[submodule "app/modules/unittest"]
-	path = app/modules/unittest
+[submodule "private/modules/unittest"]
+	path = private/modules/unittest
 	url = https://github.com/kohana/unittest
-[submodule "app/modules/acl"]
-	path = app/modules/acl
+[submodule "private/modules/acl"]
+	path = private/modules/acl
 	url = https://github.com/dmitrymomot/kohana-acl
-[submodule "app/modules/breadcrumbs"]
-	path = app/modules/breadcrumbs
+[submodule "private/modules/breadcrumbs"]
+	path = private/modules/breadcrumbs
 	url = https://github.com/DimazzzZ/kohana-breadcrumbs
-[submodule "app/modules/gravatar"]
-	path = app/modules/gravatar
+[submodule "private/modules/gravatar"]
+	path = private/modules/gravatar
 	url = https://github.com/daveWid/kohana-gravatar
-[submodule "app/modules/pagination"]
-	path = app/modules/pagination
+[submodule "private/modules/pagination"]
+	path = private/modules/pagination
 	url = https://github.com/kohana/pagination
-[submodule "app/modules/menu"]
-	path = app/modules/menu
+[submodule "private/modules/menu"]
+	path = private/modules/menu
 	url = http://github.com/b263/kohana-menu
