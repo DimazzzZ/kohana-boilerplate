@@ -13,10 +13,10 @@ project over it. Just adapt it to your needs as you wish.
 # Requirements
 
 - PHP 5.3
-- Apache2 mod rewrite (or nginx similar config) for 'app' and 'public' directories separation
+- Apache2 mod rewrite (or nginx similar config) for 'private' and 'public' directories separation
 
 # Features
 
-KB uses a structure that a bit different from original Kohana. All framework files are stored in 'app' directory that
-isolated from any public access. All public files are stored in 'public' directory (css, js, html etc.). Here you can
-found original Kohana index.php - the only php file accessible externally.
+KB uses a structure that a bit different from original Kohana. All framework files are stored in 'private' directory
+that isolated from any public access. All public files are stored in 'public' directory (css, js, html etc.). Here you
+can found original Kohana index.php - the only php file accessible externally.
