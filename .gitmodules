@@ -37,6 +37,3 @@
 [submodule "private/modules/pagination"]
 	path = private/modules/pagination
 	url = https://github.com/kohana/pagination
-[submodule "private/modules/menu"]
-	path = private/modules/menu
-	url = http://github.com/b263/kohana-menu
